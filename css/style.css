@@ -1,1 +1,24 @@
 
+body {
+    padding: 40px;
+    text-align: center;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loading{
+    height: 30px;
+    width: 30px;
+    border: 5px solid grey;
+    border-top-color: hotpink;
+    border-radius: 100%;
+    animation: spin 3s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
